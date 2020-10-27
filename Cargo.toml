@@ -1,0 +1,19 @@
+[package]
+name = "is_not"
+version = "0.1.0"
+authors = ["Tyler Hawkes <tyler.hawkes@gmail.com>"]
+edition = "2018"
+description = "A procedural macro much like #[cfg(...)] that can be re-exported from a library based on enabled features"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tylerhawkes/is_not"
+documentation = "https://docs.rs/is_not"
+readme = "README.md"
+keywords = ["cfg", "config", "proc-macro", "features"]
+categories = ["no-std", "config", "rust-patterns"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
